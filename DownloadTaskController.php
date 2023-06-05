@@ -6,7 +6,7 @@ use admin\models\DownloadTask;
 use common\libs\Aliyun\Oss;
 use Yii;
 
-class DownloadTaskController extends BaseAdminController
+class DownloadTaskController
 {
     public function actionLoadList()
     {
