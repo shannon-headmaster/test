@@ -1,5 +1,7 @@
 <?php
 
+namespace admin\controllers;
+
 use admin\models\Admin;
 use admin\models\Major;
 use common\base\controllers\BaseConfigController;
@@ -9,9 +11,10 @@ use common\libs\Cache;
 use Yii;
 use yii\console\Response;
 
-class LoginController extends BaseAdminController
+class ConfigController extends BaseAdminController
 {
 
+    use BaseConfigController;
 
     /**
      *
